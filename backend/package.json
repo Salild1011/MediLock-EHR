@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "The backend module for MediLock - A BlockChain based EHR project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinil Vasani, Salil Deshpande",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
