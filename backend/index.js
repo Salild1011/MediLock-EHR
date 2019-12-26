@@ -4,10 +4,12 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 
 import userRouter from "./resources/user/user.router";
+import authRouter from "./utils/auth/auth.router";
 
 const app = express();
 app.use(express.json());
 app.use("/api/v1/user", userRouter);
+app.use("/api/v1/auth", authRouter);
 
 dotenv.config();
 
